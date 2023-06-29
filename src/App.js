@@ -1,8 +1,8 @@
 import Navbar from "./components/Navbar";
-import Accueil from "./pages/Accueil";
-import Parcours from "./pages/Parcours";
+import Home from "./pages/Home";
+import Education from "./pages/Education";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Projet from "./pages/Projet";
+import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 
@@ -14,10 +14,10 @@ const App = () => {
          <Navbar/>
          <BrowserRouter>
             <Routes>
-                <Route path={"/"} element={<Accueil/>}/>
-                <Route path={"/*"} element={<Accueil/>}/>
-                <Route path={"/parcours"} element={<Parcours/>}/>
-                <Route path={"/projet"} element={<Projet/>}/>
+                <Route path={"/"} element={<Home/>}/>
+                <Route path={"/*"} element={<Home/>}/>
+                <Route path={"/education"} element={<Education/>}/>
+                <Route path={"/project"} element={<Project/>}/>
                 <Route path={"/experience"} element={<Experience/>}/>
                 <Route path={"/contact"} element={<Contact/>}/>
             </Routes>

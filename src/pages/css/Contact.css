@@ -1,0 +1,6 @@
+.div_contact_us {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}

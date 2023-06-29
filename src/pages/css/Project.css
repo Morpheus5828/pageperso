@@ -1,0 +1,5 @@
+.div_project {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
