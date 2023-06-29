@@ -1,0 +1,64 @@
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.nav_toggler div {
+    width: 3rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background: darkgray;
+
+}
+
+.nav_toggler {
+    display: none;
+}
+
+.nav_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10rem;
+}
+
+.nav_brand {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px){
+
+    .nav_menu {
+        position: fixed;
+        top: 7vh;
+        right: 0;
+        width: 50vw;
+        height: 93vh;
+        flex-direction: column;
+    }
+}
+
+.nav_active {
+    transform: translateX(0);
+}
+
