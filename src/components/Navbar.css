@@ -46,15 +46,16 @@ a {
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 800px){
 
     .nav_menu {
         position: fixed;
-        top: 7vh;
-        right: 0;
-        width: 50vw;
-        height: 93vh;
+        top: 2vh;
+        right: 1vh;
+        width: 20vw;
+        height: 70vh;
         flex-direction: column;
+        gap: 2px;
     }
 }
 
