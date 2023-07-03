@@ -23,7 +23,7 @@ const Home = () => {
                         bigs challenges in AI.
                     </p>
                 </div>
-                <img src={img3} width={300} height={100}/>
+                <img src={img3} alt= "img3" width={300} height={100}/>
             </div>
             <div className={"div_presentation"}>
                 <p className={"text_hobbies"}>
