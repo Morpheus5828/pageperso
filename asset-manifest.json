@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pageperso/static/css/main.2aaf89bd.css",
+    "main.js": "/pageperso/static/js/main.ff14835c.js",
+    "static/media/photo_identite.jpeg": "/pageperso/static/media/photo_identite.07dae9a4df4da07ad3a4.jpeg",
+    "static/media/competition_qarma.jpg": "/pageperso/static/media/competition_qarma.0b9d8580e48a2ea5036a.jpg",
+    "index.html": "/pageperso/index.html",
+    "main.2aaf89bd.css.map": "/pageperso/static/css/main.2aaf89bd.css.map",
+    "main.ff14835c.js.map": "/pageperso/static/js/main.ff14835c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2aaf89bd.css",
+    "static/js/main.ff14835c.js"
+  ]
+}
