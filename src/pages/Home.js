@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className={"div_accueil"}>
             <div className={"div_climbing"}>
-                <img src={img1} alt="" width={"250"} height={"250"}/>
+                <img src={img1} alt="img1" width={"250"} height={"250"}/>
                 <div>
                     <h2>Hello World !</h2>
                     <p className={"text_presentation"}>
@@ -31,7 +31,7 @@ const Home = () => {
                     and let it go. I began when I was 15 years old in College. And since this time, I carried on. <br/>
                     Last year with my team, we were to French Climbing Championship in Fontainebleau, Paris.
                 </p>
-                <img src={img2} alt="" width={"500"} height={"600"}/>
+                <img src={img2} alt="img2" width={"500"} height={"600"}/>
             </div>
 
         </div>
