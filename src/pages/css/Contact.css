@@ -3,4 +3,33 @@
     align-items: center;
     flex-direction: column;
     margin: auto;
+    text-align: center;
 }
+
+.form_control {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+input {
+    border:none;
+    height: 20px;
+    width: 200px;
+    border-radius: 3px;
+}
+
+input[placeholder] {
+    color: black;
+    border-bottom: 2px solid;
+    text-align: center;
+    background: none;
+}
+
+textarea {
+    background: none;
+    border: 2px solid black;
+}
+

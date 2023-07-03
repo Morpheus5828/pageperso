@@ -1,5 +1,28 @@
-.div_presentation {
+.div_accueil {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-direction: column;
+}
+
+.div_presentation {
+    display: flex;
+    flex-direction: row;
+    width: 1400px;
+    gap: 50px;
+}
+
+.div_climbing {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    width: 1400px;
+}
+
+.text_presentation {
+    line-height: 2;
+}
+
+.text_hobbies {
+    line-height: 2;
 }

@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
+import "./App.css"
 
 
 const App = () => {

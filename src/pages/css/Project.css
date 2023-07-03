@@ -2,4 +2,50 @@
     display: flex;
     flex-direction: column;
     margin: auto;
+    text-align: left;
+    width: 1000px;
+    gap: 20px;
+}
+
+.sethtracker_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+
+}
+
+.salsa_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+}
+
+.screendisplay_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+}
+
+.firefighter_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+}
+
+.cookingapp_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+}
+
+.navgate_project {
+    border-color: #317a8c;
+    border-style: solid;
+    border-spacing: 20px;
+}
+
+.weathor_project {
+    border-color: #61dafb;
+    border-style: solid;
+    border-spacing: 20px;
 }

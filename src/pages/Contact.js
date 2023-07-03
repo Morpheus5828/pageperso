@@ -29,7 +29,7 @@ const Contact = () => {
                     <form
                         ref={form}
                         onSubmit={sendEmail}
-                        className={"--form-control--card"}
+                        className={"form_control"}
                     >
                     <input
                         type={"text"}
@@ -46,6 +46,7 @@ const Contact = () => {
                         placeholder={"Subject"}
                     />
                     <textarea
+                        placeholder={"Enter message"}
                         name={"message"}
                         cols={"30"}
                         rows={"10"}
@@ -56,7 +57,6 @@ const Contact = () => {
 
                     </form>
                 </div>
-
             </section>
 
 
